@@ -1,49 +1,33 @@
-# Computer VIsion
-# 🚗 Klasifikasi Warna Plat Nomor Kendaraan dengan Computer Vision
+# Computer VIsion Mid-Semester Project
+# Vehicle License Plate Color Classification using Computer Vision
 
-Proyek ini bertujuan untuk mendeteksi dan mengklasifikasikan **warna plat nomor kendaraan** menggunakan teknik **Computer Vision** berbasis Python dan OpenCV. Dataset yang digunakan adalah _Motorcycle License Plate (SKRDR)_ dari Roboflow.
+In recent years, the implementation of Computer Vision technology has expanded significantly across transportation systems and traffic management. One of its key applications is in the automatic detection and identification of vehicles through camera systems. While most existing systems focus on license plate character recognition (OCR), an important feature is often overlooked: the color of the license plate.
 
----
+Indonesia, license plate colors:
+- **Black** → Private Vehicle  
+- **Yellow** → Public/commercial transport 
+- **Red** → Government-owned vehicles  
+- **Putih** → Private Vehicle (2022 - Now)  
+- **Blue** → Electric Vehicle  
 
-## 🔍 Deskripsi
-
-Warna plat nomor di Indonesia memiliki arti penting:
-- **Hitam** → Kendaraan pribadi  
-- **Kuning** → Kendaraan umum  
-- **Merah** → Kendaraan dinas  
-- **Putih** → Kendaraan pribadi (baru)  
-- **Hijau** → Kendaraan listrik  
-- **Biru** → Kendaraan diplomatik
-
-Dengan mengenali warna, sistem ini dapat membantu dalam klasifikasi jenis kendaraan otomatis, seperti pada sistem parkir, tilang elektronik (ETLE), dan analisis lalu lintas.
+Identifying the color of a license plate can serve as a valuable feature in systems such as traffic surveillance, smart parking, automated toll systems, and electronic law enforcement (ETLE).
 
 ---
 
-## 🧰 Tools & Teknologi
+## Tools 
 
-- Python 3.x
-- OpenCV
-- NumPy
-- Roboflow API
-- Matplotlib (opsional)
-- Jupyter Notebook / IDE
+- Roboflow 
+- Google Colab
+- Platform : Web Base
 
 ---
 
-## 📦 Dataset
+## Dataset
 
-Dataset digunakan dari Roboflow:
-
-> 🖼 [Motorcycle License Plate (SKRDR) Dataset](https://universe.roboflow.com/zeroexperiments/motorcycle-license-plate-skrdr)
-
-Format: YOLOv8, sudah berisi anotasi bounding box untuk plat nomor.
+| Description           | Details                                                            |
+| --------------------- | ------------------------------------------------------------------ |
+| **Dataset Name**      | Motorcycle License Plate (SKRDR)                                   |
+| **Source**            | [Roboflow Universe](https://universe.roboflow.com/zeroexperiments/motorcycle-license-plate-skrdr/) |
+| **Number of Images**  | 1845+ images                                                       |
 
 ---
-
-## 🛠️ Langkah-Langkah
-
-### 1. Clone Repository & Setup Environment
-```bash
-git clone https://github.com/username/project-plat-warna.git
-cd project-plat-warna
-pip install -r requirements.txt
