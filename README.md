@@ -3,7 +3,7 @@
 
 ---
 
-## Objective
+## Background
 
 In recent years, the implementation of Computer Vision technology has expanded significantly across transportation systems and traffic management. One of its key applications is in the automatic detection and identification of vehicles through camera systems. While most existing systems focus on license plate character recognition (OCR), an important feature is often overlooked: the color of the license plate.
 
