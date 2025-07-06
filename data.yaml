@@ -1,0 +1,12 @@
+names:
+- License Plate
+nc: 1
+roboflow:
+  license: Public Domain
+  project: motorcycle-license-plate-skrdr-zosab
+  url: https://universe.roboflow.com/cv-wfvae/motorcycle-license-plate-skrdr-zosab/dataset/1
+  version: 1
+  workspace: cv-wfvae
+test: ../test/images
+train: ../train/images
+val: ../valid/images
