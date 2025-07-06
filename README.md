@@ -48,6 +48,6 @@ Identifying the color of a license plate can serve as a valuable feature in syst
 
 ## Tools 
 
-[🔗 Google Colab]([https://colab.research.google.com/drive/1ffOnkqYF_Vdbm8NS1PYGjrXynm51k7BJ?usp=sharing](https://colab.research.google.com/drive/1Lqr99H-JAdBJbAuDfzkTR1ms1BIUpqvO#scrollTo=l3SVZIIMLzkd))
+[🔗 Google Colab](https://colab.research.google.com/drive/1Lqr99H-JAdBJbAuDfzkTR1ms1BIUpqvO?usp=drive_link)
 
 ---
