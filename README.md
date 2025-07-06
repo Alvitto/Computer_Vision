@@ -142,6 +142,10 @@ print("✅ CSV warna plat dibuat:", output_csv)
 ## Output
 [Streamlit](https://computervision-9tur2wxvbn8anwcioqhfxy.streamlit.app/)
 
+![Image](Plate/p1.png)
+![Result](Plate/p2.png)
 
+![Image](Plate/b1.png)
+![Result](Plate/b2.png)
 
 ---
