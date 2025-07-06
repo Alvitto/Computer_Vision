@@ -50,14 +50,14 @@ Identifying the color of a license plate can serve as a valuable feature in syst
 
 [🔗 Google Colab](https://colab.research.google.com/drive/1Lqr99H-JAdBJbAuDfzkTR1ms1BIUpqvO?usp=drive_link)
 
-1. Needed Dependencies
+## 1. Needed Dependencies
 ```python
 !pip install ultralytics roboflow opencv-python-headless matplotlib
 !pip install ultralytics
 pip install streamlit ultralytics opencv-python-headless
 ```
 
-2. Roboflow Dataset
+## 2. Roboflow Dataset
 ```python
 rf = Roboflow(api_key="--")
 project = rf.workspace("--").project("--")
@@ -65,7 +65,7 @@ dataset = project.version(1).download("yolov8")
 from roboflow import Roboflow
 ```
 
-3. Training
+## 3. Training
 ```python
 from ultralytics import YOLO
 model = YOLO("yolov8n.yaml")
@@ -77,7 +77,7 @@ model.train(
     name="yolov8n_plate")
 ```
 
-4. Preprocessing
+## 4. Preprocessing
 ```python
 import streamlit as st
 from ultralytics import YOLO
@@ -107,7 +107,7 @@ for file in os.listdir(input_dir):
 print("✅ Semua plat nomor berhasil dipotong dan disimpan di folder:", output_dir)
 ```
 
-5. Classification
+## 5. Classification
 ```python
 import numpy as np
 import csv
