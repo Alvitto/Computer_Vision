@@ -138,3 +138,10 @@ with open(output_csv, mode='w', newline='') as file:
 print("✅ CSV warna plat dibuat:", output_csv)
 ```
 ---
+
+## Output
+[Streamlit](https://computervision-9tur2wxvbn8anwcioqhfxy.streamlit.app/)
+
+
+
+---
